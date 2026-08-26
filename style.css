@@ -12,16 +12,30 @@ body {
 }
 
 nav {
-    background-color: #333;
+    background-color: #12033c;
     color: #fff;
     padding: 1rem;
+    display: flex;
+    align-items: center;
 }   
+
+.navbar-logo {
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    width: 100px;
+    height: 52px;
+    object-fit: contain;
+}
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
+    margin-left: auto;
 }
 
 nav ul li a {
