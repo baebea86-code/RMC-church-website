@@ -26,8 +26,9 @@ nav {
 
 .navbar-logo img {
     width: 100px;
-    height: 52px;
+    height: 40px;
     object-fit: contain;
+    transform: scale(1.8);
 }
 
 nav ul {
@@ -54,6 +55,17 @@ nav ul li a {
     text-align: center;
 }
 
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    max-width: 600px;
+}
+
+
 footer {
     background-color: #12033c;
     color: #fff;
@@ -62,4 +74,66 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding: 5rem 8%;
+    min-height: 70vh;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.founder {
+    flex: 1;
+    text-align: center;
+}
+
+.founder img {
+    width: 100%;
+    max-width: 400px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.founder h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.founder p {
+    margin: 0;
+}
+
+/* footer */
+footer a {
+    color: #fff;
+    margin: 0 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer svg {
+    width: 24px;
+    height: 24px;
+}
+
+footer a:hover {
+    opacity: 0.7;
 }
