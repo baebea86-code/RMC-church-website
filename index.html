@@ -1,40 +1,269 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
-    <link rel="icon" href="./assets/logo.png" type="image/x-icon">
-    <title>RMC Church</title>
+
+```
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      rel="stylesheet">
+
+<link rel="icon" href="./assets/logo.png" type="image/x-icon">
+
+<title>RMC Church</title>
+```
+
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a class="navbar-logo" href="./index.html" aria-label="RMC Church home">
-                <img src="./assets/logo&initials.png" alt="RMC Church logo">
-            </a>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./programs.html">Programs</a></li>
-                <li><a href="./events.html">Events</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <hero class="hero">
-        </hero>
-    </main>
+```
+<!-- Navigation -->
+<header>
+    <nav>
+        <a class="navbar-logo" href="./index.html" aria-label="RMC Church home">
+            <img src="./assets/logo&initials.png" alt="RMC Church logo">
+        </a>
 
-    <!-- footer -->
-   <footer>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./programs.html">Programs</a></li>
+            <li><a href="./events.html">Events</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+            <h1>Welcome to RMC Church</h1>
+
+            <p>
+                A place of faith, worship, fellowship and community.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+
+        <div class="welcome-content">
+
+            <h1>Welcome to RMC Church</h1>
+
+            <p>
+                We are a community of believers committed to growing
+                together in faith, worshipping God, and serving our
+                community.
+            </p>
+
+            <p>
+                Everyone is welcome at RMC Church, and we would love
+                for you to join us.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Church Life / Image Carousel -->
+    <section class="church-life-section">
+
+        <div class="church-life-intro">
+
+            <h1>Life at RMC</h1>
+
+            <p>
+                Take a look at some of the moments that make our
+                church community special.
+            </p>
+
+        </div>
+
+
+        <div class="church-carousel">
+
+            <!-- Previous Button -->
+            <button class="carousel-button previous"
+                    aria-label="Previous image">
+                &#10094;
+            </button>
+
+
+            <!-- Carousel Images -->
+            <div class="carousel-images">
+
+                <img src="./assets/church-photo-1.jpg"
+                     alt="Church worship service"
+                     class="carousel-image active">
+
+                <img src="./assets/church-photo-2.jpg"
+                     alt="Pastor preaching"
+                     class="carousel-image">
+
+                <img src="./assets/church-photo-3.jpg"
+                     alt="Praise and worship team"
+                     class="carousel-image">
+
+                <img src="./assets/church-photo-4.jpg"
+                     alt="Church congregation"
+                     class="carousel-image">
+
+            </div>
+
+
+            <!-- Next Button -->
+            <button class="carousel-button next"
+                    aria-label="Next image">
+                &#10095;
+            </button>
+
+        </div>
+
+
+        <!-- Carousel Dots -->
+        <div class="carousel-dots">
+
+            <button class="dot active"
+                    aria-label="Show image 1"></button>
+
+            <button class="dot"
+                    aria-label="Show image 2"></button>
+
+            <button class="dot"
+                    aria-label="Show image 3"></button>
+
+            <button class="dot"
+                    aria-label="Show image 4"></button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Programs Preview -->
+    <section class="home-programs-section">
+
+        <div class="home-programs-intro">
+
+            <h1>Our Programs</h1>
+
+            <p>
+                Get involved and grow with us through our various
+                church programs and ministries.
+            </p>
+
+        </div>
+
+
+        <div class="home-programs-container">
+
+            <div class="home-program">
+                <h2>Sunday Service</h2>
+
+                <p>
+                    Join us for worship, fellowship and the sharing
+                    of God's Word.
+                </p>
+            </div>
+
+
+            <div class="home-program">
+                <h2>Bible Study</h2>
+
+                <p>
+                    Grow deeper in your understanding of God's Word
+                    through Bible study and discussion.
+                </p>
+            </div>
+
+
+            <div class="home-program">
+                <h2>Youth Ministry</h2>
+
+                <p>
+                    A space for young people to grow in faith,
+                    fellowship and purpose.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Upcoming Events Preview -->
+    <section class="home-events-section">
+
+        <div class="home-events-intro">
+
+            <h1>Upcoming Events</h1>
+
+            <p>
+                Stay connected with what's happening at RMC Church.
+            </p>
+
+        </div>
+
+
+        <div class="home-events-container">
+
+            <div class="home-event">
+                <h2>Church Conference</h2>
+
+                <p>
+                    <strong>Date:</strong> 15 September 2026
+                </p>
+
+                <p>
+                    <strong>Time:</strong> 10:00 AM
+                </p>
+            </div>
+
+
+            <div class="home-event">
+                <h2>Youth Gathering</h2>
+
+                <p>
+                    <strong>Date:</strong> 20 September 2026
+                </p>
+
+                <p>
+                    <strong>Time:</strong> 2:00 PM
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer>
+
     <p>&copy; 2026 RMC Church. All rights reserved.</p>
+
 
     <!-- YouTube -->
     <a href="https://www.youtube.com/@pastorbrunowakumwika"
@@ -48,9 +277,13 @@
              fill="currentColor"
              class="bi bi-youtube"
              viewBox="0 0 16 16">
-            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+
+            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023-.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+
         </svg>
+
     </a>
+
 
     <!-- Facebook -->
     <a href="https://www.facebook.com/"
@@ -64,9 +297,15 @@
              fill="currentColor"
              class="bi bi-facebook"
              viewBox="0 0 16 16">
-            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+
         </svg>
+
     </a>
+
 </footer>
+```
+
 </body>
 </html>
