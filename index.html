@@ -39,9 +39,12 @@
     <!-- Hero Section -->
     <section class="hero">
 
+        <video class="hero-video" autoplay muted loop playsinline poster="./assets/banner.jpg" aria-hidden="true">
+            <source src="https://videos.pexels.com/video-files/3195394/3195394-hd_1920_1080_25fps.mp4" type="video/mp4">
+        </video>
+
         <div class="hero-content">
             <h1>Welcome to RMC Church</h1>
-
             <p>
                 A place of faith, worship, fellowship and community.
             </p>
@@ -240,35 +243,50 @@
                 </p>
             </div>
 
-
-
-    <!-- Church Location -->
-    <section class="home-location-section" aria-labelledby="location-heading">
-
-        <div class="home-location-intro">
-            <h1 id="location-heading">Find Us</h1>
-            <p>Join us at our church in Malvern, Johannesburg.</p>
-        </div>
-
-        <div class="home-location-container">
-            <div class="home-location-details">
-                <h2>RMC Church</h2>
-                <p>8 King Street<br>Malvern, Johannesburg</p>
-                <a href="https://www.google.com/maps/search/?api=1&amp;query=8+King+Street+Malvern+Johannesburg" target="_blank" rel="noopener noreferrer">
-                    Get directions
-                </a>
-            </div>
-
-            <iframe
-                class="home-location-map"
-                src="https://www.google.com/maps?q=8+King+Street+Malvern+Johannesburg&amp;output=embed"
-                title="Map showing RMC Church at 8 King Street, Malvern, Johannesburg"
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
         </div>
 
     </section>
+
+
+
+  <!-- Church Location -->
+<section class="find-us" aria-label="Church location and contact details">
+    <div class="find-us-container">
+
+        <div class="find-us-map">
+            <iframe
+                src="https://www.google.com/maps?q=8+King+Street+Malvern+Johannesburg&amp;output=embed"
+                title="Map showing RMC Church at 8 King Street, Malvern, Johannesburg"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="find-us-col">
+            <h2>Contact Us</h2>
+            <ul>
+                <li><i class="bi bi-telephone-fill"></i><span>[Phone Number]</span></li>
+                <li><i class="bi bi-envelope-fill"></i><span>[Email Address]</span></li>
+                <li>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <span>
+                        8 King Street, Malvern<br>
+                        Johannesburg<br>
+                        <a href="https://www.google.com/maps/search/?api=1&amp;query=8+King+Street+Malvern+Johannesburg" target="_blank" rel="noopener noreferrer">Get directions</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="find-us-col">
+            <h2>Join Us!</h2>
+            <ul>
+                <li><i class="bi bi-clock-fill"></i><span>Sunday Service: 9:00 am – 12:00 pm</span></li>
+                <li><i class="bi bi-clock-fill"></i><span>Wednesday Mid-week Service: 6:00 pm – 8:00 pm</span></li>
+            </ul>
+        </div>
+
+    </div>
+</section>
 
 </main>
     
