@@ -846,6 +846,79 @@ nav ul li a:hover {
 
 
 /* =========================
+   HOME - LOCATION
+========================= */
+
+.home-location-section {
+    padding: 100px 8%;
+    background-color: var(--background);
+}
+
+.home-location-intro {
+    max-width: 700px;
+    margin: 0 auto 44px;
+    text-align: center;
+}
+
+.home-location-intro h1 {
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.home-location-intro p,
+.home-location-details p {
+    color: var(--muted-text);
+}
+
+.home-location-container {
+    max-width: 1100px;
+    min-height: 360px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+
+    background-color: var(--white);
+    border: 1px solid var(--border);
+}
+
+.home-location-details {
+    padding: 48px;
+    border-right: 1px solid var(--border);
+    border-top: 3px solid var(--red);
+}
+
+.home-location-details h2 {
+    font-size: 1.6rem;
+    margin-bottom: 18px;
+}
+
+.home-location-details p {
+    margin-bottom: 25px;
+}
+
+.home-location-details a {
+    color: var(--red);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+}
+
+.home-location-details a:hover {
+    color: var(--red-deep);
+}
+
+.home-location-map {
+    width: 100%;
+    min-height: 360px;
+    display: block;
+    border: 0;
+}
+
+
+/* =========================
    FOOTER
 ========================= */
 
@@ -922,6 +995,15 @@ footer a:hover {
         border-right: none;
         border-bottom: 1px solid var(--border);
     }
+
+    .home-location-container {
+        grid-template-columns: 1fr;
+    }
+
+    .home-location-details {
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+    }
 }
 
 
@@ -971,6 +1053,18 @@ footer a:hover {
     .contact-info,
     .contact-form {
         padding: 30px 25px;
+    }
+
+    .home-location-section {
+        padding: 60px 6%;
+    }
+
+    .home-location-details {
+        padding: 30px 25px;
+    }
+
+    .home-location-map {
+        min-height: 280px;
     }
 
     .carousel-image {
